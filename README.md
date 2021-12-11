@@ -1,5 +1,5 @@
-# pyQt5-Practice
+# python projects
 
-pyQt5 is a simple and user-friendly GUI designing package.
+I'll put some small projects over here
 
-Here I will put some simple works that I have done with using pyqt5.
+A place to stuff my maybe useful code.
