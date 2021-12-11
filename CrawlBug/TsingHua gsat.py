@@ -30,12 +30,14 @@ def send_mail():
 
 
 def crawl():
+    global sent
     r = requests.get('https://dcs.site.nthu.edu.tw/app/index.php?Action=mobileloadmod&Type=mobile_rcg_mstr&Nbr=6454')
     html = r.text
     # print(r.text)
     if '2021-12-10' in html:
         print('find date')
         send_mail()
+        sent = True
 
 
 if __name__ == '__main__':
